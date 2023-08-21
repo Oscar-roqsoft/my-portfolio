@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
+  ssr: true,
   pages: true,
+  experimental: {
+    payloadExtraction: false
+  },
   modules: ['nuxt-icon', '@vueuse/nuxt'],
   css: ['~/assets/css/main.css'],
   postcss: {
