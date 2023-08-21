@@ -19,12 +19,12 @@
                         </svg>
                     </button>
                 </div>
-                <div class="hidden w-full md:block md:w-auto bg-gray-900 dark:bg-gray-200 px-4 md:px-0 z-10  animate__animated animate__fadeInDown 
+                <div class="hidden w-full md:block md:w-auto border-t dark:border-black bg-gray-900 dark:bg-gray-200 px-4 md:px-0 z-10  animate__animated animate__fadeInDown 
                 transition-all" @click="myToggle"
                    :class="visible ?'hidden transition-all': ''"
                  id="navbar-default">
-                    <div class="flex flex-col font-medium md:items-center border-t border-none  md:flex-wrap   md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
-                        <div class="border-y md:border-none pb-6 md:pb-0 md:flex md:items-center md:justify-center">
+                    <div class="flex flex-col font-medium md:items-center  border-none  md:flex-wrap   md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+                        <div class="border-y dark:border-black md:border-none pb-6 md:pb-0 md:flex md:items-center md:justify-center">
                         <ul v-for="(link,index) in links" :key="link"    @click="currentheight=link"
                         class="font-medium flex flex-col  md:p-0 mt-4   
                         md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-200 dark:border-gray-700">

@@ -6,7 +6,7 @@
         <p class="text-sm text-gray-400 dark:text-gray-900 ">The skills, tools and technologies I am really good at:</p>
         <div class="grid grid-cols-3 md:grid-cols-6 mt-10 gap-5  ">
             <div v-for="img in skills" :key="img">
-                <img :src="img" alt="" class="w-[70px] h-[70px]   bg-gray-400 rounded p-2">
+                <img :src="img" alt="" class="w-[70px] h-[70px]  shadow shadow-slate-500  bg-gray-400 rounded p-2">
             </div>
         </div>
     </div>
