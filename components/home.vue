@@ -29,7 +29,7 @@
             <div class="border-[20px] border-blue-700 rounded-full w-[270px] relative top-44   md:top-44   h-[270px] shadow-lg  shadow-blue-700 
             ">
             </div>
-            <img src="/Your Images Here.png" class="relative -top-[170px] transition md:right-40  md:left-0  w-[230px]  rounded-r-[110px] rounded-l-[110px]" alt="">
+            <img src="/YourImagesHere.png" class="relative -top-[170px] transition md:right-40  md:left-0  w-[230px]  rounded-r-[110px] rounded-l-[110px]" alt="">
         </div>
        
     </div>
