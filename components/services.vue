@@ -8,8 +8,8 @@
        
         <div ref="target" class="grid md:grid-cols-3 md:gap-10  dark:bg-gray-200">
             <div v-for="item in services" :key="item"
-            class=" p-4 mb-4 gap-5 rounded-lg  bg-slate-800  animate__animated animate__fadeInUp">
-                <div class="flex justify-end text-5xl">
+            class=" p-4 mb-4 gap-5 rounded-lg  bg-slate-800 shadow  animate__animated animate__fadeInUp">
+                <div class="flex justify-end text-5xl ">
                     <div>0<span>{{ item.id }}</span></div>
                 </div>
                 <Icon :name="item.icon" size="90" />

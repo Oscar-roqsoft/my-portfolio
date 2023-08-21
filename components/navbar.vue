@@ -31,9 +31,9 @@
                             <li 
                             :id="index">
                                 <a :href="`#${link}`" 
-                                class="block py-1 pl-3 pr-4  mt-1 md:my-0 text-white rounded md:bg-transparent 
+                                class="block py-1 pl-3 pr-4  mt-1 md:my-0 text-white dark:text-gray-950 rounded md:bg-transparent 
                                 md:dark:text-blue-500"
-                                  :class="currentheight===link ?'bg-blue-700 transition-all': ''">
+                                  :class="currentheight===link ?'bg-blue-700 transition-all dark:text-white': ''">
                                 {{link}}
                                 </a>
                             </li>

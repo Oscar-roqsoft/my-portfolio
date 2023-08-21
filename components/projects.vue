@@ -18,7 +18,7 @@
                 <div class="flex justify-start items-center">
                     <h1 class="text-lg text-gray-200 capitalize pb-0.5 border-b-2 border-dotted border-blue-700">{{ work.title }}</h1>
                 </div>
-                <p class="text-gray-400 py-3 text-sm text-start font-['Shrikhand']">{{ work.article }}</p>
+                <p class="text-gray-400 shadow py-3 text-sm text-start font-['Shrikhand']">{{ work.article }}</p>
                     <div class="flex flex-wrap capitalize">
                         <div v-for="tool in work.tools" :key="tool">
                             <span 

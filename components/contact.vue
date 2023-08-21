@@ -29,16 +29,16 @@
             <nuxt-link to="https://oscar-roqsoft.github.io" class="bg-transparent shadow border-2 rounded-full p-2 inline-flex items-center ">
                 <Icon name="uil:github" size="20" />
             </nuxt-link>
-            <nuxt-link to="https://twitter.com/LinkNnoje?t=ykBo0-KGm0-qrxi5P2OGMQ&s=09" class="bg-transparent border-2 rounded-full p-2 inline-flex items-center mx-3">
+            <nuxt-link to="https://twitter.com/LinkNnoje?t=ykBo0-KGm0-qrxi5P2OGMQ&s=09" class="bg-transparent shadow border-2 rounded-full p-2 inline-flex items-center mx-3">
                 <Icon  name="uil:twitter" size="20"/>
             </nuxt-link>
-            <nuxt-link to="https://wa.me/+2348084109083" class="bg-transparent border-2  rounded-full p-2 inline-flex items-center">
+            <nuxt-link to="https://wa.me/+2348084109083" class="bg-transparent border-2 shadow  rounded-full p-2 inline-flex items-center">
                 <Icon name="uil:whatsapp"  size="20"/>
             </nuxt-link>
-            <nuxt-link to="https://www.linkedin.com/in/oscar-nnoje-177621268" class="bg-transparent border-2 rounded-full p-2 inline-flex items-center mx-3">
+            <nuxt-link to="https://www.linkedin.com/in/oscar-nnoje-177621268" class="bg-transparent shadow border-2 rounded-full p-2 inline-flex items-center mx-3">
                 <Icon  name="entypo-social:linkedin"  size="20"/>
             </nuxt-link>
-            <nuxt-link to="https://www.facebook.com/insigne.nnoje" class="bg-transparent border-2 rounded-full p-2 inline-flex items-center mx-3">
+            <nuxt-link to="https://www.facebook.com/insigne.nnoje" class="bg-transparent border-2 shadow rounded-full p-2 inline-flex items-center mx-3">
                 <Icon  name="uil:facebook"  size="20"/>
             </nuxt-link>
         </div>
