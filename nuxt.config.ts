@@ -15,7 +15,6 @@ export default defineNuxtConfig({
     },
   },
   app:{
-   
     head: {
       title: 'Nnoje Udochukwu',
       htmlAttrs: {
