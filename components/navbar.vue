@@ -19,7 +19,7 @@
                         </svg>
                     </button>
                 </div>
-                <div class="hidden w-full md:block md:w-auto border-t dark:border-black bg-gray-900 dark:bg-gray-200 px-4 md:px-0 z-10  animate__animated animate__fadeInDown 
+                <div class="hidden w-full md:block md:w-auto  bg-gray-900 dark:bg-gray-200 px-4 md:px-0 z-10  animate__animated animate__fadeInDown 
                 transition-all" @click="myToggle"
                    :class="visible ?'hidden transition-all': ''"
                  id="navbar-default">
