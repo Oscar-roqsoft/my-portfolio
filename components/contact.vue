@@ -2,25 +2,25 @@
     <div id="contact"
     class=" max-w-[1280px] mx-auto p-4 flex flex-col items-center text-center" >
         <div class="flex justify-center text-gray-200 dark:text-gray-200 text-sm font-medium mb-4 ">
-            <span class="px-3 py-1 bg-slate-700 dark:bg-gray-900 rounded-full capitalize tracking-wider font-['Shrikhand']">get in touch</span>
+            <span class="px-3 py-1 bg-slate-700 dark:bg-gray-900 rounded-full capitalize tracking-wider font-['Shrikhand'] shadow shadow-slate-500">get in touch</span>
         </div>
         <p class="text-sm text-gray-400 dark:text-gray-900 font-['pacifico']">What’s next? Feel free to reach out to me if you're looking for a developer, 
             have a query, or simply want to connect.</p> 
 
-        <div class="my-5">
-            <a href="">
+        <div @click="alertv()" class="my-5">
+            <a href="mailto:oscar.nnoje@gmail.com">
                 <Icon name="material-symbols:stacked-email-outline-rounded"/>
             </a>
-            <span class="mx-3 text-2xl font-['pacifico']">oscar.nnoje@gmail.com</span>
-            <Icon name="material-symbols:content-copy-outline-rounded"/>
+            <span class="mx-3 text-2xl font-['pacifico']">{{ emailValueCopy }}</span>
+            <button @click="copy(emailValueCopy)"><Icon name="material-symbols:content-copy-outline-rounded"/></button>
         </div>
 
-        <div>
-            <a href="">
+        <div @click="alertv()">
+            <a href="Tel: +2348084109083">
                 <Icon name="material-symbols:call-sharp"/>
             </a>
-            <span class="mx-3  text-2xl font-['pacifico']">+2348084109083</span>
-            <Icon name="material-symbols:content-copy-outline-rounded"/>
+            <span  class="mx-3  text-2xl font-['pacifico']">{{ phoneNumber}}</span>
+            <button @click='copy(phoneNumber)'> <Icon name="material-symbols:content-copy-outline-rounded"/></button>
         </div>
 
         <span class="my-7">You may also find me on these platforms!</span>
@@ -51,3 +51,16 @@
     </div>
     
 </template>
+
+<script setup>
+
+import { useClipboard } from '@vueuse/core'
+
+const emailValueCopy = ref('oscar.nnoje@gmail.com')
+const phoneNumber = ref(+2348084109083)
+const { copy, isSupported } = useClipboard({ phoneNumber,emailValueCopy })
+
+const alertv =()=>{
+    alert('copied')
+}
+</script>

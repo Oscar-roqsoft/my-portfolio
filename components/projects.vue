@@ -2,7 +2,7 @@
     <div id="project"
     class="md:flex-row max-w-[1280px] mx-auto p-4 text-center border-t font-['Lexend Deca'] dark:text-gray-900 dark:bg-gray-200">
         <div class="flex justify-center text-gray-300 dark:text-gray-200 text-sm font-bold mb-2 ">
-            <span class="px-3 py-1 bg-slate-700 dark:bg-gray-900 rounded-full capitalize">works</span>
+            <span class="px-3 py-1 bg-slate-700 dark:bg-gray-900 rounded-full capitalize tracking-wider font-['Shrikhand'] shadow shadow-slate-500">works</span>
         </div>
         <p class="text-sm text-gray-400 dark:text-gray-900">Some of the noteworthy projects I have built:</p> 
          

@@ -3,11 +3,10 @@
         <!-- home section -->
         <section class="bg-gray-900 dark:text-gray-900 dark:bg-gray-200  text-white ">
             <navbar/>
-            <a href="#"><button type="button" 
+            <a href="mailto:oscar.nnoje@gmail.com"><button type="button" 
             class="text-white md:hidden absolute top-44 z-40 left-6 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none
              focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2
              animate__animated  animate__flip animate__repeat-2	2">Hire Me</button></a>
-
             <home/>
             <about />
                 

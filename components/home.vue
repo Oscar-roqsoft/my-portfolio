@@ -23,6 +23,7 @@
                         <Icon  name="uil:facebook"  size="20"/>
                     </nuxt-link>
                 </div>
+                
 
         </div>
         <div class="flex flex-col justify-end md:justify-center items-center md:w-[50%] z-20 relative">

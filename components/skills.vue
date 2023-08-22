@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col  max-w-[1280px] mx-auto p-4 text-center font-['Lexend Deca'] mb-10 dark:text-gray-900 dark:bg-gray-100">
         <div class="flex justify-center text-gray-300 dark:text-gray-200 text-sm font-bold mb-2 ">
-            <span class="px-3 py-1 bg-slate-700 dark:bg-gray-700 rounded-full tracking-wider">skills</span>
+            <span class="px-3 py-1 bg-slate-700 dark:bg-gray-700 rounded-full tracking-wider font-['Shrikhand'] shadow shadow-slate-500">skills</span>
         </div>
         <p class="text-sm text-gray-400 dark:text-gray-900 ">The skills, tools and technologies I am really good at:</p>
         <div class="grid grid-cols-3 md:grid-cols-6 mt-10 gap-5  ">
