@@ -42,7 +42,7 @@ const services = [
         id: 3,
         icon: "material-symbols:brush-outline",
         title: "graphics designer",
-        article: "We analyse your website’s structure, internal architecture & other key elements that are weighted.,"
+        article: "Elevate your brand with our captivating graphic design. Transforming ideas into visual masterpieces. Experience creativity today."
     },
 ]
 </script>

@@ -45,17 +45,17 @@ import 'animate.css';
             id:1,
             img:"/portfolio 17.13.58.png",
             title: "portfolio-project",
-            article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec  urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+            article: "Step into the realm of creativity with our Portfolio Design Sample Website. Each click opens a door to a world of aesthetics, innovation, and imagination. Our curated selection of projects is a testament to our passion for design. From sleek UI/UX to captivating graphics, immerse yourself in inspiration. Welcome to design redefined.",
             tools:["html","css","vanilla javascript"],
             link:"https://oscar-roqsoft.github.io/pfolio"
         },
         {
             id:1,
-            img:"/learning.png",
-            title: "portfolio-project2",
-            article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec  urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-            tools:["html","css","bootstraph"],
-            link:"#"
+            img:"/nexcent-bg.png",
+            title: "Nexcent landing page",
+            article: "Nexcent's landing page is the virtual storefront that can make or break a visitor's first impression. Enter Nexcent Agency – your partner in crafting engaging landing pages. With a blend of stunning design, user-centric layout, and strategic calls-to-action, we convert visitors into loyal customers. Elevate your online presence with Nexcent.",
+            tools:["html","css","javascript","tailwindCss","nuxtjs"],
+            link:"https://oscar-nexcent.netlify.app"
         },
         {
             id:1,

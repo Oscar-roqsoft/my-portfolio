@@ -4,7 +4,7 @@
             <div class="max-w-screen-xl flex flex-wrap  items-center justify-between   mx-auto md:p-4">
                 <div 
                 class="flex flex-wrap items-center  justify-between bg-gray-900 dark:bg-gray-200 w-full md:w-[25%] z-20 animate__animated animate__fadeInDown" id="subnav">
-                    <a href="https://flowbite.com/" class="flex items-center m-4 md:m-0 ">
+                    <a href="#" class="flex items-center m-4 md:m-0 ">
                         <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> -->
                         <span class="self-center text-xl  whitespace-nowrap dark:text-gray-950 capitalize ">oscar-tech</span>
                     </a>
@@ -33,7 +33,7 @@
                                 <a :href="`#${link}`" 
                                 class="block py-1 pl-3 pr-4  mt-1 md:my-0 text-white dark:text-gray-950 rounded md:bg-transparent 
                                 md:dark:text-blue-500"
-                                  :class="currentheight===link ?'bg-blue-700 transition-all dark:text-white': ''">
+                                  :class="currentheight===link ?'bg-blue-700  transition-all dark:text-white': ''">
                                 {{link}}
                                 </a>
                             </li>
