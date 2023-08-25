@@ -7,6 +7,10 @@ export default defineNuxtConfig({
     payloadExtraction: false
   },
   modules: ['nuxt-icon', '@vueuse/nuxt'],
+
+  plugins: [
+    {src:'~/plugins/scrollAnimation.js'}
+  ],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {

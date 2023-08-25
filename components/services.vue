@@ -7,8 +7,9 @@
         </div>
        
         <div ref="target" class="grid md:grid-cols-3 md:gap-10  dark:bg-gray-200">
-            <div v-for="item in services" :key="item"
-            class=" p-4 mb-4 gap-5 rounded-lg  bg-slate-800 shadow  animate__animated animate__fadeInUp">
+            <div v-animate-on-scroll
+             v-for="item in services" :key="item"
+            class=" p-4 mb-4 gap-5 rounded-lg  bg-slate-800 shadow">
                 <div class="flex justify-end text-5xl ">
                     <div>0<span>{{ item.id }}</span></div>
                 </div>
@@ -46,3 +47,17 @@ const services = [
     },
 ]
 </script>
+
+
+<style scoped>
+
+.before-enter{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 2s ease-in-out ;
+}
+.enter{
+    opacity: 1;
+    transform: translateY(0);
+}
+</style>

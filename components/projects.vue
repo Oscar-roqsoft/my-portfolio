@@ -8,8 +8,8 @@
          
 
         
-        <div v-for="work in works " :key="work" class="flex flex-col md:flex-row mt-[50px] border border-blue-700 rounded-lg 
-        animate__animated  animate__fadeInUp">
+        <div v-animate-on-scroll
+        v-for="work in works " :key="work" class="flex flex-col md:flex-row mt-[50px] border border-blue-700 rounded-lg ">
             <div class="p-6 md:p-[48px] bg-slate-800 rounded-t md:rounded-t-none md:rounded-l-lg">
                 <img :src="work.img" alt="" class="w-full rounded-lg">
             </div>
@@ -67,3 +67,16 @@ import 'animate.css';
         }
     ]
 </script>
+
+<style scoped>
+
+.before-enter{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 2s ease-in-out ;
+}
+.enter{
+    opacity: 1;
+    transform: translateY(0);
+}
+</style>
