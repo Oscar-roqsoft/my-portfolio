@@ -59,11 +59,11 @@ import 'animate.css';
         },
         {
             id:1,
-            img:"/luxterior.png",
-            title: "portfolio-project2",
-            article: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec  urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-            tools:["html","css","bootstraph"],
-            link:"#"
+            img:"/Banner.png",
+            title: "Logistics Website",
+            article: "Discover the power of Nuxt.js and Tailwind.css in our Cargo Logistics Sample Website. Seamlessly blending performance and design, it offers lightning-fast user experiences. Explore simplified logistics solutions, real-time tracking, and sleek UI. Witness innovation at the intersection of technology and aesthetics.",
+            tools:["html","css","javascript","tailwindCss","nuxtjs"],
+            link:"https://cargopoint.netlify.app"
         }
     ]
 </script>
