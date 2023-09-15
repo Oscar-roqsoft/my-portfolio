@@ -1,9 +1,11 @@
 <template>
     <div >
-        <nav  class="md:bg-gray-900 md:dark:bg-gray-200 text-white dark:text-black fixed  w-full z-50 font-['Shrikhand'] opacity-[0.9] " id="nav" >
+        <nav  class="before:bg-[url('/noise.gif')] before:bg-['rebeccapurple'] before:absolute before:top-0 before:left-0 before:w-full before:h-full 
+        before:-z-0 before:opacity-10 md:bg-gray-900 md:dark:bg-gray-200 text-white dark:text-black fixed  w-full z-50 font-['Shrikhand'] " id="nav" >
             <div class="max-w-screen-xl flex flex-wrap  items-center justify-between   mx-auto md:p-4">
                 <div 
-                class="flex flex-wrap items-center  justify-between bg-gray-900 dark:bg-gray-200 w-full md:w-[25%] z-20 animate__animated animate__fadeInDown" id="subnav">
+                class="before:bg-[url('/noise.gif')] before:bg-['rebeccapurple'] before:absolute before:top-0 before:left-0 before:w-full before:h-full
+                before:-z-0 before:opacity-10 flex flex-wrap items-center  justify-between bg-gray-900 dark:bg-gray-200 w-full md:w-[25%] z-20 animate__animated animate__fadeInDown" id="subnav">
                     <a href="#" class="flex items-center m-4 md:m-0 ">
                         <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> -->
                         <span class="self-center text-xl  whitespace-nowrap dark:text-gray-950 capitalize ">oscar-tech</span>
@@ -11,7 +13,7 @@
 
                     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex m-4 md:m-0 items-center p-2 w-10 h-10 justify-center 
                     text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200
-                     dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 
+                     dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600  z-20
                      " aria-controls="navbar-default" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -19,7 +21,8 @@
                         </svg>
                     </button>
                 </div>
-                <div class="hidden w-full md:block md:w-auto  bg-gray-900 dark:bg-gray-200 px-4 md:px-0 z-10  animate__animated animate__fadeInDown 
+                <div class="before:bg-[url('/noise.gif')] before:bg-['rebeccapurple'] before:absolute before:top-0 before:left-0 before:w-full before:h-full relative
+                before:-z-0 before:opacity-10 hidden w-full md:block md:w-auto  bg-gray-900 dark:bg-gray-200 px-4 md:px-0 z-10  animate__animated animate__fadeInDown 
                 transition-all" @click="myToggle"
                    :class="visible ?'hidden transition-all': ''"
                  id="navbar-default">
