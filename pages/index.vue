@@ -1,6 +1,6 @@
 <template>
     <div class=" before:bg-[url('/noise.gif')] before:bg-['rebeccapurple'] before:absolute before:top-0 before:left-0 before:w-full before:h-full relative
-    before:-z-0 before:opacity-5 bg-gray-900 dark:text-gray-900 dark:bg-gray-200  text-white ">
+    before:-z-0 before:opacity-10 bg-gray-900 dark:text-gray-900 dark:bg-gray-200  text-white ">
         <!-- home section -->
         <section class=" bg-gray-900 dark:text-gray-900 dark:bg-gray-200  text-white ">
             <navbar/>
@@ -12,7 +12,7 @@
             <about />
                 
         </section>
-        
+
 
         <section class="bg-gray-950 text-white dark:bg-gray-200">
             <Skills/>
