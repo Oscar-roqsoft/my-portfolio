@@ -22,8 +22,8 @@
                     </button>
                 </div>
                 <div class="before:bg-[url('/noise.gif')] before:bg-['rebeccapurple'] before:absolute before:top-0 before:left-0 before:w-full before:h-full relative
-                before:-z-0 before:opacity-10 hidden w-full md:block md:w-auto  bg-gray-900 dark:bg-gray-200 px-4 md:px-0 z-10  animate__animated animate__fadeInDown 
-                transition-all" @click="myToggle"
+                before:-z-0 before:opacity-10 hidden w-full md:block md:w-auto  bg-gray-900 dark:bg-gray-200 px-4 md:px-0 z-30  animate__animated animate__fadeInDown 
+                transition-all " @click="myToggle"
                    :class="visible ?'hidden transition-all': ''"
                  id="navbar-default">
                     <div class="flex flex-col font-medium md:items-center  border-none  md:flex-wrap   md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
@@ -34,7 +34,7 @@
                             <li 
                             :id="index">
                                 <a :href="`#${link}`" 
-                                class="block py-1 pl-3 pr-4  mt-1 md:my-0 text-white dark:text-gray-950 rounded md:bg-transparent 
+                                class="block py-1 pl-3 pr-4  mt-1 md:my-0 text-white dark:text-gray-950 rounded z-30 relative md:bg-transparent 
                                 md:dark:text-blue-500"
                                   :class="currentheight===link ?'bg-blue-700  transition-all dark:text-white': ''">
                                 {{link}}
