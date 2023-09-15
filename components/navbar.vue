@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <nav  class="md:bg-gray-900 md:dark:bg-gray-200 text-white dark:text-black fixed  w-full z-50 font-['Shrikhand'] " id="nav" >
+    <div >
+        <nav  class="md:bg-gray-900 md:dark:bg-gray-200 text-white dark:text-black fixed  w-full z-50 font-['Shrikhand'] opacity-[0.9] " id="nav" >
             <div class="max-w-screen-xl flex flex-wrap  items-center justify-between   mx-auto md:p-4">
                 <div 
                 class="flex flex-wrap items-center  justify-between bg-gray-900 dark:bg-gray-200 w-full md:w-[25%] z-20 animate__animated animate__fadeInDown" id="subnav">

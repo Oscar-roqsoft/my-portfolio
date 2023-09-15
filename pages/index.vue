@@ -1,7 +1,8 @@
 <template>
-    <div >
+    <div class=" before:bg-[url('/noise.gif')] before:bg-['rebeccapurple'] before:absolute before:top-0 before:left-0 before:w-full before:h-full relative
+    before:-z-0 before:opacity-5 bg-gray-900 dark:text-gray-900 dark:bg-gray-200  text-white ">
         <!-- home section -->
-        <section class="bg-gray-900 dark:text-gray-900 dark:bg-gray-200  text-white ">
+        <section class=" bg-gray-900 dark:text-gray-900 dark:bg-gray-200  text-white ">
             <navbar/>
             <a href="mailto:oscar.nnoje@gmail.com"><button type="button" 
             class="text-white md:hidden absolute top-44 z-40 left-6 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none
@@ -11,6 +12,7 @@
             <about />
                 
         </section>
+        
 
         <section class="bg-gray-950 text-white dark:bg-gray-200">
             <Skills/>
