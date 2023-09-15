@@ -1,6 +1,6 @@
 <template>
     <div >
-        <nav  class="before:bg-[url('/noise.gif')] before:bg-['rebeccapurple'] before:absolute before:top-0 before:left-0 before:w-full before:h-full 
+        <nav  class="md:before:bg-[url('/noise.gif')] before:bg-['rebeccapurple'] before:absolute before:top-0 before:left-0 before:w-full before:h-full 
         before:-z-0 before:opacity-10 md:bg-gray-900 md:dark:bg-gray-200 text-white dark:text-black fixed  w-full z-50 font-['Shrikhand'] " id="nav" >
             <div class="max-w-screen-xl flex flex-wrap  items-center justify-between   mx-auto md:p-4">
                 <div 
